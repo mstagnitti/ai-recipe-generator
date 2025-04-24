@@ -22,7 +22,7 @@ function generateRecipe(event) {
   recipeBox.classList.remove("hidden");
 
   new Typewriter("#recipe", {
-    strings: `Generating recipe for you... <div class="hourglass"> ⏳ </div>`,
+    strings: `Generating a recipe for you... <div class="hourglass"> ⏳ </div>`,
     autoStart: true,
     cursor: "",
     delay: 70,
